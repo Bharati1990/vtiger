@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T11:12:14Z" name="Default suite" finished-at="2023-01-16T11:12:35Z" duration-ms="21507">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T11:12:14Z" name="Default test" finished-at="2023-01-16T11:12:35Z" duration-ms="21507">
+      <class name="DocumentTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:DocumentTest@b4711e2]" started-at="2023-01-16T16:42:14Z" name="launchbrowser" finished-at="2023-01-16T16:42:17Z" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:DocumentTest@b4711e2]" started-at="2023-01-16T16:42:17Z" name="login" finished-at="2023-01-16T16:42:22Z" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Dcocument()[pri:0, instance:DocumentTest@b4711e2]" started-at="2023-01-16T16:42:22Z" name="Dcocument" finished-at="2023-01-16T16:42:34Z" duration-ms="12113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dcocument -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:DocumentTest@b4711e2]" started-at="2023-01-16T16:42:34Z" name="logout" finished-at="2023-01-16T16:42:35Z" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DocumentTest@b4711e2]" started-at="2023-01-16T16:42:35Z" name="close" finished-at="2023-01-16T16:42:35Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DocumentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
