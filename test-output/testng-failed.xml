@@ -3,15 +3,15 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="ContactTest">
+      <class name="Flipkart">
         <methods>
+          <include name="Flipkartdemo"/>
           <include name="logout"/>
           <include name="close"/>
           <include name="launchbrowser"/>
-          <include name="contact"/>
           <include name="login"/>
         </methods>
-      </class> <!-- ContactTest -->
+      </class> <!-- Flipkart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
