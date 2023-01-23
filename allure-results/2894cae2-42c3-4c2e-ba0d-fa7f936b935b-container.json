@@ -1,0 +1,1 @@
+{"uuid":"2894cae2-42c3-4c2e-ba0d-fa7f936b935b","name":"Common.VtigerBaseclass.login","children":["d408b4dc-3b73-4c99-999f-52d05a340935"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674476549971,"stop":1674476549971}],"afters":[],"start":1674476549971,"stop":1674476549972}

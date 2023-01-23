@@ -17,7 +17,7 @@ import POMclasses.VtigerLoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VtigerBaseclass extends InstanceClass{
-	
+
 	public VtigerLoginPage vtigerLoginPage;
 	@BeforeClass
 	public void launchbrowser() {
@@ -25,29 +25,29 @@ public class VtigerBaseclass extends InstanceClass{
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 	}
 	@BeforeMethod
 	public void login() throws IOException {
-//		FileInputStream fis= new FileInputStream("./src/test/resources/Commondata.properties");
-//		Properties pobj = new Properties();
-//		pobj.load(fis);
-//		String Url = pobj.getProperty("url");
-//		driver.get(Url);
-//		String user = pobj.getProperty("username");
-//		String pwrd = pobj.getProperty("password");
-//		vtigerLoginPage = new VtigerLoginPage(driver);
-//		vtigerLoginPage.login(user, pwrd);
+		FileInputStream fis= new FileInputStream("./src/test/resources/Commondata.properties");
+		Properties pobj = new Properties();
+		pobj.load(fis);
+		String Url = pobj.getProperty("url");
+		driver.get(Url);
+		String user = pobj.getProperty("username");
+		String pwrd = pobj.getProperty("password");
+		vtigerLoginPage = new VtigerLoginPage(driver);
+		vtigerLoginPage.login(user, pwrd);
 
 	}
-	
+
 	@AfterMethod
 	public void logout()
 	{
-	//	vtigerLoginPage.logout(driver);
+		vtigerLoginPage.logout(driver);
 	}
-@AfterClass
-public void close()
+	@AfterClass
+	public void close()
 	{
 		driver.close();
 	}

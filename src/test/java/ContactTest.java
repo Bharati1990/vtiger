@@ -8,11 +8,11 @@ import POMclasses.ContactPage;
 
 public class ContactTest extends VtigerBaseclass {
 	@Test
-	
-public void contact() throws EncryptedDocumentException, IOException
+
+	public void contact() throws EncryptedDocumentException, IOException
 	{
-	ContactPage contactPage = new ContactPage(driver);
-	contactPage.contact();
+		ContactPage contactPage = new ContactPage(driver);
+		contactPage.contact();
 	}
 
 }

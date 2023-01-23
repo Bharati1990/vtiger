@@ -26,7 +26,7 @@ public class OrganizationsPage {
 	{
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[@href=\"index.php?module=Accounts&action=index\"]")private WebElement organization;
+	@FindBy(xpath="//td[@align=\"center\"]/a[text()='Organizations']")private WebElement organization;
 	@FindBy(xpath="//img[@src=\"themes/softed/images/btnL3Add.gif\"]")private WebElement addicon;
 	@FindBy(xpath="//input[@name=\"accountname\"]")private WebElement organizationname;
 	@FindBy(xpath="//select[@name=\"industry\"]")private WebElement industry;

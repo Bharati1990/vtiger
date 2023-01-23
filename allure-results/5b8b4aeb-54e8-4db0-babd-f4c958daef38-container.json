@@ -1,0 +1,1 @@
+{"uuid":"5b8b4aeb-54e8-4db0-babd-f4c958daef38","name":"Common.VtigerBaseclass.logout","children":["2e43f887-decc-4f6b-9f6c-d6db56dd4972"],"description":"","befores":[],"afters":[{"name":"logout","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674476919967,"stop":1674476921870}],"start":1674476919966,"stop":1674476921870}

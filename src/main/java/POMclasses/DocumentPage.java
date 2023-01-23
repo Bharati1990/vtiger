@@ -24,7 +24,7 @@ public class DocumentPage {
 	{
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[@href=\"index.php?module=Documents&action=index\"]")private WebElement documents;
+	@FindBy(xpath="//a[text()='Documents']")private WebElement documents;
 	@FindBy(xpath="//img[@src=\"themes/softed/images/btnL3Add.gif\"]")private WebElement addicon;
 	@FindBy(xpath="//input[@name=\"notes_title\"]")private WebElement title;
 	@FindBy(xpath="//iframe[@title=\"Rich text editor, notecontent, press ALT 0 for help.\"]")private WebElement description;

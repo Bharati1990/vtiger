@@ -26,7 +26,7 @@ public class ProductPage
 	{
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[@href=\"index.php?module=Products&action=index\"]")private WebElement products;
+	@FindBy(xpath="//a[text()='Products']")private WebElement products;
 	@FindBy(xpath="//img[@src=\"themes/softed/images/btnL3Add.gif\"]")private WebElement addicon;
 	@FindBy(xpath="//input[@name=\"productname\"]")private WebElement productname;
 	@FindBy(xpath="//select[@name=\"productcategory\"]")private WebElement category;
